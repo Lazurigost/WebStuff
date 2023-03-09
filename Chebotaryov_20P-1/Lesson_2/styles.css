@@ -1,0 +1,15 @@
+p>a{
+    color: red !important;
+}
+p:hover{
+    color:black;
+}
+/* :focus */
+/* :first-child */
+/* :last-child */
+/* :link:visited */
+
+/* ::first-line */
+/* ::after/before */
+/* ::first-letter */
+/* ::placeholder */

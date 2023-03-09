@@ -1,0 +1,365 @@
+div{
+    display: flex;
+}
+img{
+    display: flex;
+}
+p{
+    font-size: 18pt;
+    font-family: 'Noto Serif';
+    margin: 10pt;
+    text-align: center;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10pt;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+}
+.header_div{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.user_div{
+    flex-direction: row;
+    align-items: center;
+}
+.user_img{
+    height: 70%;
+    vertical-align:middle;
+    cursor: pointer;
+}
+.account_txt{
+    width:fit-content;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+.search_img{
+    height: 70%;
+    cursor: pointer;
+}
+.main_div{
+    background-image: url("pngs/hero\ banner\ image.png");
+    height: 1000pt;
+    background-repeat: no-repeat;
+    align-self: center;
+    background-position: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1680pt;
+    padding-left: 300pt;
+    margin: auto;
+}
+.hero_text{
+    font-weight: 700;
+    font-size: 84pt;
+    line-height: 112pt;
+    width: 804pt;
+    color: #2C2C2C;
+    margin-bottom: 50pt;
+}
+#main_button{
+    background-color: #FF715B;
+    width: 200pt;
+    height: 60pt;
+    border: none;
+    color: white;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18pt;
+    line-height: 25pt;
+    text-align: center;
+    cursor: pointer;
+}
+.saquo_buttons{
+    background-color: #FF715B;
+    border: none;
+    width: 47pt;
+    height: 47pt;
+    font-size: 36pt;
+    color: white;
+    cursor: pointer;
+}
+.hor_line{
+    width: 234pt;
+    border: 1pt solid #F5EBE9;
+    height: 0pt;
+    align-self: center;
+}
+.zero_three_number{
+    color: #FF715B;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24pt;
+    line-height: 33pt;
+    height:fit-content;
+}
+.ver_line{
+    width: 0pt;
+    border: 1pt solid #F5EBE9;
+    height: auto;
+    align-items: stretch;
+    align-self: center;
+}
+.discover_button{
+    width: 195pt;
+    height: 64pt;
+    background: #FF715B;
+    color: white;
+    font-family: 'Noto Serif';
+    border: none;
+    font-weight: 500;
+    font-size: 18pt;
+    line-height: 25pt;
+    text-align: center;
+    cursor: pointer;
+}
+.DCP_div{
+    position: relative;
+    background-color: white;
+    justify-content: space-around;
+    width: 50%;
+    bottom: 80pt;
+    box-shadow: 2pt 2pt 20pt 10pt rgba(0, 0, 0, 0.2);
+    align-items: center;
+    flex-direction: row ;
+}
+.buttons_and_line{
+    justify-content: space-around;
+    width: 30%;
+    height: fit-content;
+    position: relative;
+    top: 20pt;
+}
+.hardest_div{
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 150pt;
+}
+.date_input{
+    border: none;
+    border-bottom: 1pt solid ;
+}
+.saquo_buttons:hover{
+    border: 2pt solid #F5EBE9;
+    background-color: white;
+    color: #FF715B;
+    cursor: pointer;
+}
+.dcp_p{
+    font-family: 'Product Sans' !important;
+font-style: normal;
+font-weight: 400;
+font-size: 16pt;
+line-height: 19pt;
+color: #A79997;
+text-align: left;
+margin: 0;
+}
+.imported_imgs{
+    width: 100%;
+    height: 60%;
+}
+.combo_div{
+    width: 20%;
+    flex-direction: column;
+}
+.four_imgs{
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+.main_for_four{
+    width:fit-content;
+    justify-content: space-around;
+    width: 100%;
+}
+.images_aboba{
+    width: 30%;
+}
+.four_imgs:hover{
+    box-shadow: 2pt 2pt 20pt 10pt rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+.three_images_paris{
+    background: url(pngs/Paris.png);
+    height: 80%;
+    background-repeat: no-repeat;
+    width: 40%;
+    z-index: 1;
+    align-items: flex-end;
+}
+.three_images_cuba{
+    background: url(pngs/Cuba.png);
+    height: 80%;
+    background-repeat: no-repeat;
+    width: 40%;
+    z-index: 1;
+    align-items: flex-end;
+}
+.three_images_japan{
+    background: url(pngs/japan.png);
+    height: 80%;
+    background-repeat: no-repeat;
+    width: 40%;
+    z-index: 1;
+    align-items: flex-end;
+}
+.discover_div{
+    width: 30%;
+    flex-direction: column;
+}
+.random_images{
+    height: auto;
+    width: 60%;
+}
+.under_info{
+    height: 400pt;
+    padding: 50pt;
+    justify-content: space-evenly;
+}
+.relative_bg{
+    position: relative;
+    background: #F5EBE9;
+    width: 40%;
+    right: 30%;
+    z-index: 0;
+}
+.discover_text_div{
+    flex-direction: row;
+    align-items: flex-start;
+}
+.red_text{
+    color: #FF715B;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48pt;
+}
+.top_text{
+    font-family: 'Noto Serif';
+font-style: normal;
+font-weight: 800;
+font-size: 48pt;
+align-self: flex-start;
+}
+.four_main_text{
+    font-family: 'Noto Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 24pt;
+line-height: 33pt;
+}
+.four_secondary_text{
+    font-family: 'Product Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18pt;
+line-height: 26pt;
+color: #A79997;
+}
+.discover_more_button{
+    background-color: #FF715B;
+    width: 200pt;
+    height: 60pt;
+    border: none;
+    color: white;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18pt;
+    line-height: 25pt;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 40pt;
+}
+.under_text{
+    font-family: 'Product Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18pt;
+line-height: 26pt;
+color: #A79997;
+}
+.three_cities{
+    font-family: 'Noto Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 28pt;
+line-height: 38pt;
+margin-bottom: 30pt;
+color: #FFFFFF;
+}
+.offer_and_png{
+    height: 900pt;
+    justify-content: space-between;
+    padding-right: 200pt;
+    padding-left: 100pt;
+}
+.offer_png{
+    background: url(pngs/Offer_png.png);
+    height: 100%;
+    width: 59%;
+    background-repeat: no-repeat;
+}
+.horizontal_text{
+    flex-direction: column;
+}
+#offer_main_text{
+    font-family: 'Noto Serif';
+font-style: normal;
+font-weight: 800;
+font-size: 48pt;
+line-height: 65pt;
+text-align: left;
+}
+#offer_text_div{
+    flex-direction: column;
+    width: 40%;
+}
+.horizontal_images{
+    flex-direction: column;
+}
+.horizontal_section_main_text{
+    font-family: 'Noto Serif';
+font-style: normal;
+font-weight: 600;
+font-size: 24pt;
+line-height: 33pt;
+text-align: left;
+}
+#horizontal_section_secondary_text{
+    font-family: 'Product Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18pt;
+line-height: 26pt;
+
+text-align: left;
+color: #A79997;
+}
+.horizontal_border{
+    height: 1pt;
+    border-bottom: #F1E0DD 1pt solid;
+}
+.images_by_themselves{
+    width: 50pt;
+    height: 50pt;
+}
+#world_image{
+    margin-top: 160pt;
+}
+#headphones_image{
+    margin-top: 22pt;
+}
+#chelovek_image{
+    margin-top: 20pt;
+}

@@ -1,0 +1,101 @@
+div {
+    border: 5px solid;
+    padding: 10px;
+    display: flex;
+}
+.main_container {
+    display: flex;
+    height: 700px;
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.first_container {
+    border: none;
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+.second_container{
+    width: 98%;
+    height: 10%;
+    padding: 10px;
+    border: none;
+}
+.last_container{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    border: none;
+    justify-content: space-around;
+}
+
+#first_first{
+    height:90%;
+    width: 17%;
+    border-color: blue;
+}
+.first_container_in{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:80%;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+}
+#first_second{
+    width: 100%;
+    border-color:lavender;
+    margin-bottom: 10px;
+}
+#first_third{
+    width: 77%;
+    border-color: greenyellow;
+}
+#first_last{
+    width: 15%;
+    border-color: violet;
+}
+
+.second_first{
+    border-color: yellow;
+    width: 100%;
+}
+
+.last_blue{
+    width: 100%;
+    border-color: blue;
+    margin-bottom: 5px;
+}
+
+.last_brown{
+    width: 25%;
+    border-color: brown;
+}
+.last_red{
+    width: 50%;
+    border-color: red;
+}
+
+.last_orange{
+    width: 70%;
+    height: 87%;
+    border-color: orangered;
+}
+.last_another_container{
+    width: 25%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+}

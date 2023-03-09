@@ -1,0 +1,113 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+div.q{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+.q2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid blue;
+    position: relative;
+}
+.q3{
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.q4{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+/* PRACTICE */
+header{
+    width: 100%;
+    height: 100px;
+    background:#dedede;
+}
+
+header img{
+    width: 250px;
+}
+nav{
+    float: right;
+}
+nav>a{
+    color: blueviolet;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0;
+}
+#blank_nav{
+    height: 1000px;
+    width: 10px;
+    position: absolute;
+}
+#up_button{
+    height: 30px;
+    width: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#hover_nav{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-color: aqua;
+}
+#shown_nav{
+    display: none;
+    position: absolute;
+    bottom: 0;
+}
+#first_nav{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    bottom: 0;
+}
+#first_nav:hover + a{
+    background-color: #dedede;
+    display: block;
+    text-align: center;
+    width: inherit;
+    height: inherit;
+}
+#shown_nav:hover{
+    background-color: #dedede;
+    display: block;
+    text-align: center;
+    width: inherit;
+    height: inherit;
+}
+/* flex */
+.flexContainer{
+    width: 500px;
+    background-color: bisque;
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.flexContainer>div{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}

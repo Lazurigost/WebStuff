@@ -1,0 +1,40 @@
+/* селектор {
+    атрибут_стиля:значение;
+    атрибут_стиля:значение;
+    атрибут_стиля:значение;
+}
+селектор элементов - p, img
+селектор классов - .название_класса
+селектор id - #id
+селектор доч. эл-ов - > (p>.test) */
+.first_two_h{
+    color: brown;
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+h3{
+    text-decoration: underline;
+}
+h4{
+    text-decoration: underline;
+}
+h5{
+    text-decoration: underline;
+}
+h6{
+    text-decoration: underline;
+}
+body{
+    background-image: url("https://pngimage.net/wp-content/uploads/2018/05/clash-royale-like-png-5.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#first_list_item{
+    font-weight: bold;
+}
+#firstlist li:first-child{
+    font-weight: bold;
+}
